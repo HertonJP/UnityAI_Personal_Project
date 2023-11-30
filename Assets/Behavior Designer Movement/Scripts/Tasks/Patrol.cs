@@ -29,12 +29,18 @@ namespace BehaviorDesigner.Runtime.Tasks.Movement
             // initially move towards the closest waypoint
             float distance = Mathf.Infinity;
             float localDistance;
-            for (int i = 0; i < m_Waypoints.Value.Count; ++i) {
-                if ((localDistance = Vector3.Magnitude(transform.position - m_Waypoints.Value[i].transform.position)) < distance) {
+            for (int i = 0; i < m_Waypoints.Value.Count; ++i)
+            {
+                if ((localDistance = Vector3.Magnitude(transform.position - m_Waypoints.Value[i].transform.position)) < distance)
+                {
                     distance = localDistance;
                     m_WaypointIndex = i;
                 }
             }
+
+            // Explicitly set the Y rotation to 0
+            transform.rotation = Quaternion.Euler(0f, 0f, 0f);
+
             m_WaypointReachedTime = -1;
             SetDestination(Target());
         }
