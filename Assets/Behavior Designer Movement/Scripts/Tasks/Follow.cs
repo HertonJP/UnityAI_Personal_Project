@@ -33,6 +33,7 @@ namespace BehaviorDesigner.Runtime.Tasks.Movement
         // Follow the target. The task will never return success as the agent should continue to follow the target even after arriving at the destination.
         public override TaskStatus OnUpdate()
         {
+            transform.rotation = Quaternion.Euler(0f, 0f, 0f);
             if (m_Target.Value == null) {
                 return TaskStatus.Failure;
             }
