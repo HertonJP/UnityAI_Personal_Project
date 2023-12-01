@@ -85,6 +85,7 @@ namespace BehaviorDesigner.Runtime.Tasks.Movement
         // Keep searching until an object is seen or heard (if senseAudio is enabled)
         public override TaskStatus OnUpdate()
         {
+            transform.rotation = Quaternion.Euler(0f, 0f, 0f);
             if (HasArrived()) {
                 // The agent should pause at the destination only if the max pause duration is greater than 0
                 if (m_MaxPauseDuration.Value > 0) {
