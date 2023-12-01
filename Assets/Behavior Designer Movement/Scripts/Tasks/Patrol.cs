@@ -48,6 +48,7 @@ namespace BehaviorDesigner.Runtime.Tasks.Movement
         // Patrol around the different waypoints specified in the waypoint array. Always return a task status of running. 
         public override TaskStatus OnUpdate()
         {
+            transform.rotation = Quaternion.Euler(0f, 0f, 0f);
             if (m_Waypoints.Value.Count == 0) {
                 return TaskStatus.Failure;
             }
