@@ -32,6 +32,7 @@ namespace BehaviorDesigner.Runtime.Tasks.Movement
         // There is no success or fail state with wander - the agent will just keep wandering
         public override TaskStatus OnUpdate()
         {
+            transform.rotation = Quaternion.Euler(0f, 0f, 0f);
             if (HasArrived()) {
                 // The agent should pause at the destination only if the max pause duration is greater than 0
                 if (m_MaxPauseDuration.Value > 0) {
