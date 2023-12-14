@@ -264,15 +264,16 @@ MonoBehaviour:
       parentIndex: 
       startIndex: 
       variableStartIndex: 
-      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(628.5,-10)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-1.5,120)"},"ID":1,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Movement.Search","NodeData":{"Offset":"(-137.863525,101.212036)"},"ID":2,"Name":"Search","Instant":true,"Booleanm_UsePhysics2D":false,"SharedFloatm_MinWanderDistance":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":20},"SharedFloatm_MaxWanderDistance":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":20},"SharedFloatm_WanderRate":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":2},"SharedFloatm_MinPauseDuration":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0},"SharedFloatm_MaxPauseDuration":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0},"SharedIntm_TargetRetries":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":1},"SharedFloatm_FieldOfViewAngle":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":90},"SharedFloatm_ViewDistance":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":30},"LayerMaskm_IgnoreLayerMask":4,"SharedFloatm_AngleOffset2D":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0},"SharedBoolm_SenseAudio":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedFloatm_HearingRadius":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":30},"SharedVector3m_Offset":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":null,"Vector3mValue":"(0,0,0)"},"SharedVector3m_TargetOffset":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":null,"Vector3mValue":"(0,0,0)"},"LayerMaskm_TargetLayerMask":0,"Int32m_MaxCollisionCount":200,"SharedBoolm_UseTargetBone":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedHumanBodyBonesm_TargetBone":{"Type":"BehaviorDesigner.Runtime.SharedHumanBodyBones","Name":null,"HumanBodyBonesmValue":"Hips"},"SharedBoolm_DrawDebugRay":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatm_AudibilityThreshold":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.05},"SharedGameObjectm_ReturnedObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null},"SharedFloatm_Speed":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":10},"SharedFloatm_AngularSpeed":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":120},"SharedFloatm_ArriveDistance":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedBoolm_StopOnTaskEnd":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBoolm_UpdateRotation":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true}},{"Type":"BehaviorDesigner.Runtime.Tasks.Movement.WithinDistance","NodeData":{"Offset":"(-1.50001812,101.212067)"},"ID":3,"Name":"Within
-        Distance","Instant":true,"Booleanm_UsePhysics2D":false,"SharedDetectionModem_DetectionMode":{"Type":"BehaviorDesigner.Runtime.Tasks.Movement.SharedDetectionMode","Name":null,"DetectionModemValue":"Object,
-        ObjectList, Tag, LayerMask"},"SharedGameObjectm_TargetObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null},"SharedGameObjectListm_TargetObjects":{"Type":"BehaviorDesigner.Runtime.SharedGameObjectList","Name":null,"List`1mValue":[]},"SharedStringm_TargetTag":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":""},"SharedLayerMaskm_TargetLayerMask":{"Type":"BehaviorDesigner.Runtime.SharedLayerMask","Name":null,"LayerMaskmValue":0},"Int32m_MaxCollisionCount":200,"SharedFloatm_Magnitude":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":5},"SharedBoolm_LineOfSight":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"LayerMaskm_IgnoreLayerMask":4,"SharedVector3m_Offset":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":null,"Vector3mValue":"(0,0,0)"},"SharedVector3m_TargetOffset":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":null,"Vector3mValue":"(0,0,0)"},"SharedBoolm_DrawDebugRay":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedGameObjectm_ReturnedObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null}}]}}'
+      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(628.5,-10)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-1.5,120)"},"ID":1,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Movement.Search","NodeData":{"Offset":"(-137.863525,101.212036)"},"ID":2,"Name":"Search","Instant":true,"Booleanm_UsePhysics2D":false,"SharedFloatm_MinWanderDistance":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":20},"SharedFloatm_MaxWanderDistance":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":20},"SharedFloatm_WanderRate":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":2},"SharedFloatm_MinPauseDuration":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0},"SharedFloatm_MaxPauseDuration":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0},"SharedIntm_TargetRetries":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":1},"SharedFloatm_FieldOfViewAngle":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":90},"SharedFloatm_ViewDistance":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":30},"LayerMaskm_IgnoreLayerMask":4,"SharedFloatm_AngleOffset2D":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0},"SharedBoolm_SenseAudio":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedFloatm_HearingRadius":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":30},"SharedVector3m_Offset":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":null,"Vector3mValue":"(0,0,0)"},"SharedVector3m_TargetOffset":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":null,"Vector3mValue":"(0,0,0)"},"LayerMaskm_TargetLayerMask":0,"Int32m_MaxCollisionCount":200,"SharedBoolm_UseTargetBone":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedHumanBodyBonesm_TargetBone":{"Type":"BehaviorDesigner.Runtime.SharedHumanBodyBones","Name":null,"HumanBodyBonesmValue":"Hips"},"SharedBoolm_DrawDebugRay":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatm_AudibilityThreshold":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.05},"SharedGameObjectm_ReturnedObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null},"SharedFloatm_Speed":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":5},"SharedFloatm_AngularSpeed":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0},"SharedFloatm_ArriveDistance":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedBoolm_StopOnTaskEnd":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBoolm_UpdateRotation":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true}},{"Type":"BehaviorDesigner.Runtime.Tasks.Movement.WithinDistance","NodeData":{"Offset":"(-1.50001812,101.212067)"},"ID":3,"Name":"Within
+        Distance","Instant":true,"Booleanm_UsePhysics2D":true,"SharedDetectionModem_DetectionMode":{"Type":"BehaviorDesigner.Runtime.Tasks.Movement.SharedDetectionMode","Name":null,"DetectionModemValue":"Tag"},"SharedGameObjectm_TargetObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":0},"SharedGameObjectListm_TargetObjects":{"Type":"BehaviorDesigner.Runtime.SharedGameObjectList","Name":null,"List`1mValue":[]},"SharedStringm_TargetTag":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"Player"},"SharedLayerMaskm_TargetLayerMask":{"Type":"BehaviorDesigner.Runtime.SharedLayerMask","Name":null,"LayerMaskmValue":1},"Int32m_MaxCollisionCount":200,"SharedFloatm_Magnitude":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":10},"SharedBoolm_LineOfSight":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"LayerMaskm_IgnoreLayerMask":4,"SharedVector3m_Offset":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":null,"Vector3mValue":"(0,0,0)"},"SharedVector3m_TargetOffset":{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":null,"Vector3mValue":"(0,0,0)"},"SharedBoolm_DrawDebugRay":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedGameObjectm_ReturnedObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":1}}]}}'
       fieldSerializationData:
         typeName: []
         fieldNameHash: 
         startIndex: 
         dataPosition: 
-        unityObjects: []
+        unityObjects:
+        - {fileID: 1261044323}
+        - {fileID: 480160438}
         byteData: 
         byteDataArray: 
       Version: 1.7.7
@@ -436,7 +437,8 @@ Transform:
   m_LocalPosition: {x: -7.39, y: -1.29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 480160440}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &446534140
@@ -683,6 +685,73 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c08d8c2883c5f04db0a19e626476f24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &480160438
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 480160440}
+  - component: {fileID: 480160439}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!58 &480160439
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480160438}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 10
+--- !u!4 &480160440
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480160438}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.2533069, y: 0.2527299, z: -0.02080913}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 130933402}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &645100765
 GameObject:
   m_ObjectHideFlags: 0
@@ -1134,7 +1203,7 @@ GameObject:
   - component: {fileID: 1261044330}
   m_Layer: 0
   m_Name: Agent B
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
